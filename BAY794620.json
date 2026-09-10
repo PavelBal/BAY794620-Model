@@ -1,5 +1,6 @@
 {
-  "Version": 79,
+  "Name": "BAY794620",
+  "Version": 81,
   "Individuals": [
     {
       "Name": "Mouse_autoradiography",
@@ -512,7 +513,8 @@
         {
           "Name": "Molecular weight",
           "Value": 152000.0,
-          "Unit": "g/mol"
+          "Unit": "g/mol",
+          "ValueOrigin": {}
         },
         {
           "Name": "Radius (solute)",
@@ -545,12 +547,14 @@
         {
           "Name": "Start time",
           "Value": 0.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Name": "InputDose",
           "Value": 0.0005,
-          "Unit": "mg"
+          "Unit": "mg",
+          "ValueOrigin": {}
         }
       ]
     },
@@ -562,12 +566,14 @@
         {
           "Name": "Start time",
           "Value": 0.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Name": "InputDose",
           "Value": 1.25,
-          "Unit": "mg/kg"
+          "Unit": "mg/kg",
+          "ValueOrigin": {}
         }
       ]
     }
@@ -613,17 +619,20 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
               "Value": 2.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "Resolution",
               "Value": 20.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -632,7 +641,8 @@
             {
               "Name": "Start time",
               "Value": 2.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
@@ -645,7 +655,8 @@
             {
               "Name": "Resolution",
               "Value": 4.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         }
@@ -821,1209 +832,7 @@
           }
         }
       ],
-      "HasResults": true,
-      "IndividualAnalyses": [
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "µmol/l",
-              "Dimension": "Concentration (molar)",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "Min": 0.0,
-              "Max": 0.1,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "BAY794620-Venous Blood-Whole Blood-Concentration",
-              "X": "Time",
-              "Y": "BAY794620_autoradiography|Organism|VenousBlood|BAY794620|Whole Blood",
-              "CurveOptions": {
-                "Color": "#FF0000",
-                "LegendIndex": 4
-              }
-            },
-            {
-              "Name": "Autoradiography.Blood.1-BAY794620-Blood-WholeBlood-Measurement",
-              "X": "BAY794620_Autoradiography_PKSimImport.Blood.1|Time",
-              "Y": "BAY794620_Autoradiography_PKSimImport.Blood.1|ObservedData|Blood|WholeBlood|BAY794620|Measurement",
-              "CurveOptions": {
-                "Color": "#FF0000",
-                "LegendIndex": 5,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "Autoradiography.Blood.2-BAY794620-Blood-WholeBlood-Measurement",
-              "X": "BAY794620_Autoradiography_PKSimImport.Blood.2|Time",
-              "Y": "BAY794620_Autoradiography_PKSimImport.Blood.2|ObservedData|Blood|WholeBlood|BAY794620|Measurement",
-              "CurveOptions": {
-                "Color": "#FF0000",
-                "LegendIndex": 6,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            }
-          ],
-          "Name": "Blood - lin scale",
-          "FontAndSize": {
-            "Fonts": {
-              "AxisSize": 10,
-              "LegendSize": 8,
-              "TitleSize": 16,
-              "DescriptionSize": 12,
-              "OriginSize": 8,
-              "FontFamilyName": "Microsoft Sans Serif",
-              "WatermarkSize": 32
-            }
-          },
-          "Settings": {
-            "SideMarginsEnabled": true,
-            "LegendPosition": "RightInside",
-            "BackColor": "#FFFFFF",
-            "DiagramBackColor": "#FFFFFF"
-          },
-          "OriginText": "BAY794620\nBAY794620_autoradiography\n2023-03-14 09:12"
-        },
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "µmol/l",
-              "Dimension": "Concentration (molar)",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "Min": 0.0001,
-              "Max": 0.1,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "BAY794620-Venous Blood-Whole Blood-Concentration",
-              "X": "Time",
-              "Y": "BAY794620_autoradiography|Organism|VenousBlood|BAY794620|Whole Blood",
-              "CurveOptions": {
-                "Color": "#FF0000",
-                "LegendIndex": 1
-              }
-            },
-            {
-              "Name": "Autoradiography.Blood.1-BAY794620-Blood-WholeBlood-Measurement",
-              "X": "BAY794620_Autoradiography_PKSimImport.Blood.1|Time",
-              "Y": "BAY794620_Autoradiography_PKSimImport.Blood.1|ObservedData|Blood|WholeBlood|BAY794620|Measurement",
-              "CurveOptions": {
-                "Color": "#FF0000",
-                "LegendIndex": 2,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "Autoradiography.Blood.2-BAY794620-Blood-WholeBlood-Measurement",
-              "X": "BAY794620_Autoradiography_PKSimImport.Blood.2|Time",
-              "Y": "BAY794620_Autoradiography_PKSimImport.Blood.2|ObservedData|Blood|WholeBlood|BAY794620|Measurement",
-              "CurveOptions": {
-                "Color": "#FF0000",
-                "LegendIndex": 3,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            }
-          ],
-          "Name": "Blood - log scale",
-          "FontAndSize": {
-            "Fonts": {
-              "AxisSize": 10,
-              "LegendSize": 8,
-              "TitleSize": 16,
-              "DescriptionSize": 12,
-              "OriginSize": 8,
-              "FontFamilyName": "Microsoft Sans Serif",
-              "WatermarkSize": 32
-            }
-          },
-          "Settings": {
-            "SideMarginsEnabled": true,
-            "LegendPosition": "RightInside",
-            "BackColor": "#FFFFFF",
-            "DiagramBackColor": "#FFFFFF"
-          },
-          "OriginText": "BAY794620\nBAY794620_autoradiography\n2023-03-14 09:12"
-        },
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "µmol/l",
-              "Dimension": "Concentration (molar)",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "Min": 0.0001,
-              "Max": 0.1,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "BAY794620-Lung-Whole Organ incl. FcRn_Complex-BAY794620-Concentration",
-              "X": "Time",
-              "Y": "BAY794620_autoradiography|Organism|Lung|BAY794620|Whole Organ incl. FcRn_Complex-BAY794620",
-              "CurveOptions": {
-                "Color": "#0000FF",
-                "LegendIndex": 1
-              }
-            },
-            {
-              "Name": "Autoradiography.Lung.1-BAY794620-Lung-Tissue-Measurement",
-              "X": "BAY794620_Autoradiography_PKSimImport.Lung.1|Time",
-              "Y": "BAY794620_Autoradiography_PKSimImport.Lung.1|ObservedData|Lung|Tissue|BAY794620|Measurement",
-              "CurveOptions": {
-                "Color": "#0000FF",
-                "LegendIndex": 2,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "Autoradiography.Lung.2-BAY794620-Lung-Tissue-Measurement",
-              "X": "BAY794620_Autoradiography_PKSimImport.Lung.2|Time",
-              "Y": "BAY794620_Autoradiography_PKSimImport.Lung.2|ObservedData|Lung|Tissue|BAY794620|Measurement",
-              "CurveOptions": {
-                "Color": "#0000FF",
-                "LegendIndex": 3,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            }
-          ],
-          "Name": "Lung",
-          "FontAndSize": {
-            "Fonts": {
-              "AxisSize": 10,
-              "LegendSize": 8,
-              "TitleSize": 16,
-              "DescriptionSize": 12,
-              "OriginSize": 8,
-              "FontFamilyName": "Microsoft Sans Serif",
-              "WatermarkSize": 32
-            }
-          },
-          "Settings": {
-            "SideMarginsEnabled": true,
-            "LegendPosition": "RightInside",
-            "BackColor": "#FFFFFF",
-            "DiagramBackColor": "#FFFFFF"
-          },
-          "OriginText": "BAY794620\nBAY794620_autoradiography\n2023-03-14 09:12"
-        },
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "µmol/l",
-              "Dimension": "Concentration (molar)",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "Min": 0.0001,
-              "Max": 0.1,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "BAY794620-Kidney-Whole Organ incl. FcRn_Complex-BAY794620-Concentration",
-              "X": "Time",
-              "Y": "BAY794620_autoradiography|Organism|Kidney|BAY794620|Whole Organ incl. FcRn_Complex-BAY794620",
-              "CurveOptions": {
-                "Color": "#FF8000",
-                "LegendIndex": 1
-              }
-            },
-            {
-              "Name": "Autoradiography.Kidney.1-BAY794620-Kidney-Tissue-Measurement",
-              "X": "BAY794620_Autoradiography_PKSimImport.Kidney.1|Time",
-              "Y": "BAY794620_Autoradiography_PKSimImport.Kidney.1|ObservedData|Kidney|Tissue|BAY794620|Measurement",
-              "CurveOptions": {
-                "Color": "#FF8000",
-                "LegendIndex": 2,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "Autoradiography.Kidney.2-BAY794620-Kidney-Tissue-Measurement",
-              "X": "BAY794620_Autoradiography_PKSimImport.Kidney.2|Time",
-              "Y": "BAY794620_Autoradiography_PKSimImport.Kidney.2|ObservedData|Kidney|Tissue|BAY794620|Measurement",
-              "CurveOptions": {
-                "Color": "#FF8000",
-                "LegendIndex": 3,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            }
-          ],
-          "Name": "Kidney",
-          "FontAndSize": {
-            "Fonts": {
-              "AxisSize": 10,
-              "LegendSize": 8,
-              "TitleSize": 16,
-              "DescriptionSize": 12,
-              "OriginSize": 8,
-              "FontFamilyName": "Microsoft Sans Serif",
-              "WatermarkSize": 32
-            }
-          },
-          "Settings": {
-            "SideMarginsEnabled": true,
-            "LegendPosition": "RightInside",
-            "BackColor": "#FFFFFF",
-            "DiagramBackColor": "#FFFFFF"
-          },
-          "OriginText": "BAY794620\nBAY794620_autoradiography\n2023-03-14 09:12"
-        },
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "µmol/l",
-              "Dimension": "Concentration (molar)",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "Min": 0.0001,
-              "Max": 0.1,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "BAY794620-Skin-Whole Organ incl. FcRn_Complex-BAY794620-Concentration",
-              "X": "Time",
-              "Y": "BAY794620_autoradiography|Organism|Skin|BAY794620|Whole Organ incl. FcRn_Complex-BAY794620",
-              "CurveOptions": {
-                "Color": "#FF00FF",
-                "LegendIndex": 4
-              }
-            },
-            {
-              "Name": "Autoradiography.Skin.1-BAY794620-Skin-Tissue-Measurement",
-              "X": "BAY794620_Autoradiography_PKSimImport.Skin.1|Time",
-              "Y": "BAY794620_Autoradiography_PKSimImport.Skin.1|ObservedData|Skin|Tissue|BAY794620|Measurement",
-              "CurveOptions": {
-                "Color": "#FF00FF",
-                "LegendIndex": 5,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "Autoradiography.Skin.2-BAY794620-Skin-Tissue-Measurement",
-              "X": "BAY794620_Autoradiography_PKSimImport.Skin.2|Time",
-              "Y": "BAY794620_Autoradiography_PKSimImport.Skin.2|ObservedData|Skin|Tissue|BAY794620|Measurement",
-              "CurveOptions": {
-                "Color": "#FF00FF",
-                "LegendIndex": 6,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            }
-          ],
-          "Name": "Skin",
-          "FontAndSize": {
-            "Fonts": {
-              "AxisSize": 10,
-              "LegendSize": 8,
-              "TitleSize": 16,
-              "DescriptionSize": 12,
-              "OriginSize": 8,
-              "FontFamilyName": "Microsoft Sans Serif",
-              "WatermarkSize": 32
-            }
-          },
-          "Settings": {
-            "SideMarginsEnabled": true,
-            "LegendPosition": "RightInside",
-            "BackColor": "#FFFFFF",
-            "DiagramBackColor": "#FFFFFF"
-          },
-          "OriginText": "BAY794620\nBAY794620_autoradiography\n2023-03-14 09:12"
-        },
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "µmol/l",
-              "Dimension": "Concentration (molar)",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "Min": 0.0001,
-              "Max": 0.1,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "BAY794620-Muscle-Whole Organ incl. FcRn_Complex-BAY794620-Concentration",
-              "X": "Time",
-              "Y": "BAY794620_autoradiography|Organism|Muscle|BAY794620|Whole Organ incl. FcRn_Complex-BAY794620",
-              "CurveOptions": {
-                "Color": "#800080",
-                "LegendIndex": 1
-              }
-            },
-            {
-              "Name": "Autoradiography.Muscle.1-BAY794620-Muscle-Tissue-Measurement",
-              "X": "BAY794620_Autoradiography_PKSimImport.Muscle.1|Time",
-              "Y": "BAY794620_Autoradiography_PKSimImport.Muscle.1|ObservedData|Muscle|Tissue|BAY794620|Measurement",
-              "CurveOptions": {
-                "Color": "#800080",
-                "LegendIndex": 2,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "Autoradiography.Muscle.2-BAY794620-Muscle-Tissue-Measurement",
-              "X": "BAY794620_Autoradiography_PKSimImport.Muscle.2|Time",
-              "Y": "BAY794620_Autoradiography_PKSimImport.Muscle.2|ObservedData|Muscle|Tissue|BAY794620|Measurement",
-              "CurveOptions": {
-                "Color": "#800080",
-                "LegendIndex": 3,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            }
-          ],
-          "Name": "Muscle",
-          "FontAndSize": {
-            "Fonts": {
-              "AxisSize": 10,
-              "LegendSize": 8,
-              "TitleSize": 16,
-              "DescriptionSize": 12,
-              "OriginSize": 8,
-              "FontFamilyName": "Microsoft Sans Serif",
-              "WatermarkSize": 32
-            }
-          },
-          "Settings": {
-            "SideMarginsEnabled": true,
-            "LegendPosition": "RightInside",
-            "BackColor": "#FFFFFF",
-            "DiagramBackColor": "#FFFFFF"
-          },
-          "OriginText": "BAY794620\nBAY794620_autoradiography\n2023-03-14 09:12"
-        },
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "µmol/l",
-              "Dimension": "Concentration (molar)",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "Min": 0.0001,
-              "Max": 0.1,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "BAY794620-Spleen-Whole Organ incl. FcRn_Complex-BAY794620-Concentration",
-              "X": "Time",
-              "Y": "BAY794620_autoradiography|Organism|Spleen|BAY794620|Whole Organ incl. FcRn_Complex-BAY794620",
-              "CurveOptions": {
-                "Color": "#00FF00",
-                "LegendIndex": 1
-              }
-            },
-            {
-              "Name": "Autoradiography.Spleen.1-BAY794620-Spleen-Tissue-Measurement",
-              "X": "BAY794620_Autoradiography_PKSimImport.Spleen.1|Time",
-              "Y": "BAY794620_Autoradiography_PKSimImport.Spleen.1|ObservedData|Spleen|Tissue|BAY794620|Measurement",
-              "CurveOptions": {
-                "Color": "#00FF00",
-                "LegendIndex": 2,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "Autoradiography.Spleen.2-BAY794620-Spleen-Tissue-Measurement",
-              "X": "BAY794620_Autoradiography_PKSimImport.Spleen.2|Time",
-              "Y": "BAY794620_Autoradiography_PKSimImport.Spleen.2|ObservedData|Spleen|Tissue|BAY794620|Measurement",
-              "CurveOptions": {
-                "Color": "#00FF00",
-                "LegendIndex": 3,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            }
-          ],
-          "Name": "Spleen",
-          "FontAndSize": {
-            "Fonts": {
-              "AxisSize": 10,
-              "LegendSize": 8,
-              "TitleSize": 16,
-              "DescriptionSize": 12,
-              "OriginSize": 8,
-              "FontFamilyName": "Microsoft Sans Serif",
-              "WatermarkSize": 32
-            }
-          },
-          "Settings": {
-            "SideMarginsEnabled": true,
-            "LegendPosition": "RightInside",
-            "BackColor": "#FFFFFF",
-            "DiagramBackColor": "#FFFFFF"
-          },
-          "OriginText": "BAY794620\nBAY794620_autoradiography\n2023-03-14 09:12"
-        },
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "µmol/l",
-              "Dimension": "Concentration (molar)",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "Min": 0.0001,
-              "Max": 0.1,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "BAY794620-Liver-Whole Organ incl. FcRn_Complex (Liver)-BAY794620-Concentration",
-              "X": "Time",
-              "Y": "BAY794620_autoradiography|Organism|Liver|BAY794620|Whole Organ incl. FcRn_Complex (Liver)-BAY794620",
-              "CurveOptions": {
-                "Color": "#C04000",
-                "LegendIndex": 1
-              }
-            },
-            {
-              "Name": "Autoradiography.Liver.1-BAY794620-Liver-Tissue-Measurement",
-              "X": "BAY794620_Autoradiography_PKSimImport.Liver.1|Time",
-              "Y": "BAY794620_Autoradiography_PKSimImport.Liver.1|ObservedData|Liver|Tissue|BAY794620|Measurement",
-              "CurveOptions": {
-                "Color": "#C04000",
-                "LegendIndex": 2,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "Autoradiography.Liver.2-BAY794620-Liver-Tissue-Measurement",
-              "X": "BAY794620_Autoradiography_PKSimImport.Liver.2|Time",
-              "Y": "BAY794620_Autoradiography_PKSimImport.Liver.2|ObservedData|Liver|Tissue|BAY794620|Measurement",
-              "CurveOptions": {
-                "Color": "#C04000",
-                "LegendIndex": 3,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            }
-          ],
-          "Name": "Liver",
-          "FontAndSize": {
-            "Fonts": {
-              "AxisSize": 10,
-              "LegendSize": 8,
-              "TitleSize": 16,
-              "DescriptionSize": 12,
-              "OriginSize": 8,
-              "FontFamilyName": "Microsoft Sans Serif",
-              "WatermarkSize": 32
-            }
-          },
-          "Settings": {
-            "SideMarginsEnabled": true,
-            "LegendPosition": "RightInside",
-            "BackColor": "#FFFFFF",
-            "DiagramBackColor": "#FFFFFF"
-          },
-          "OriginText": "BAY794620\nBAY794620_autoradiography\n2023-03-14 09:12"
-        },
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "µmol/l",
-              "Dimension": "Concentration (molar)",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "Min": 0.0001,
-              "Max": 0.1,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "BAY794620-Heart-Whole Organ incl. FcRn_Complex-BAY794620-Concentration",
-              "X": "Time",
-              "Y": "BAY794620_autoradiography|Organism|Heart|BAY794620|Whole Organ incl. FcRn_Complex-BAY794620",
-              "CurveOptions": {
-                "Color": "#FF8080",
-                "LegendIndex": 1
-              }
-            },
-            {
-              "Name": "Autoradiography.Heart.1-BAY794620-Heart-Tissue-Measurement",
-              "X": "BAY794620_Autoradiography_PKSimImport.Heart.1|Time",
-              "Y": "BAY794620_Autoradiography_PKSimImport.Heart.1|ObservedData|Heart|Tissue|BAY794620|Measurement",
-              "CurveOptions": {
-                "Color": "#FF8080",
-                "LegendIndex": 2,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "Autoradiography.Heart.2-BAY794620-Heart-Tissue-Measurement",
-              "X": "BAY794620_Autoradiography_PKSimImport.Heart.2|Time",
-              "Y": "BAY794620_Autoradiography_PKSimImport.Heart.2|ObservedData|Heart|Tissue|BAY794620|Measurement",
-              "CurveOptions": {
-                "Color": "#FF8080",
-                "LegendIndex": 3,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            }
-          ],
-          "Name": "Heart",
-          "FontAndSize": {
-            "Fonts": {
-              "AxisSize": 10,
-              "LegendSize": 8,
-              "TitleSize": 16,
-              "DescriptionSize": 12,
-              "OriginSize": 8,
-              "FontFamilyName": "Microsoft Sans Serif",
-              "WatermarkSize": 32
-            }
-          },
-          "Settings": {
-            "SideMarginsEnabled": true,
-            "LegendPosition": "RightInside",
-            "BackColor": "#FFFFFF",
-            "DiagramBackColor": "#FFFFFF"
-          },
-          "OriginText": "BAY794620\nBAY794620_autoradiography\n2023-03-14 09:12"
-        },
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "µmol/l",
-              "Dimension": "Concentration (molar)",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "Min": 0.0001,
-              "Max": 0.1,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "BAY794620-Fat-Whole Organ incl. FcRn_Complex-BAY794620-Concentration",
-              "X": "Time",
-              "Y": "BAY794620_autoradiography|Organism|Fat|BAY794620|Whole Organ incl. FcRn_Complex-BAY794620",
-              "CurveOptions": {
-                "Color": "#00C0C0",
-                "LegendIndex": 1
-              }
-            },
-            {
-              "Name": "Autoradiography.Fat.1-BAY794620-Fat-Tissue-Measurement",
-              "X": "BAY794620_Autoradiography_PKSimImport.Fat.1|Time",
-              "Y": "BAY794620_Autoradiography_PKSimImport.Fat.1|ObservedData|Fat|Tissue|BAY794620|Measurement",
-              "CurveOptions": {
-                "Color": "#00C0C0",
-                "LegendIndex": 2,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "Autoradiography.Fat.2-BAY794620-Fat-Tissue-Measurement",
-              "X": "BAY794620_Autoradiography_PKSimImport.Fat.2|Time",
-              "Y": "BAY794620_Autoradiography_PKSimImport.Fat.2|ObservedData|Fat|Tissue|BAY794620|Measurement",
-              "CurveOptions": {
-                "Color": "#00C0C0",
-                "LegendIndex": 3,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            }
-          ],
-          "Name": "Fat",
-          "FontAndSize": {
-            "Fonts": {
-              "AxisSize": 10,
-              "LegendSize": 8,
-              "TitleSize": 16,
-              "DescriptionSize": 12,
-              "OriginSize": 8,
-              "FontFamilyName": "Microsoft Sans Serif",
-              "WatermarkSize": 32
-            }
-          },
-          "Settings": {
-            "SideMarginsEnabled": true,
-            "LegendPosition": "RightInside",
-            "BackColor": "#FFFFFF",
-            "DiagramBackColor": "#FFFFFF"
-          },
-          "OriginText": "BAY794620\nBAY794620_autoradiography\n2023-03-14 09:12"
-        },
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "µmol/l",
-              "Dimension": "Concentration (molar)",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "Min": 0.0001,
-              "Max": 0.1,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "BAY794620-Brain-Whole Organ incl. FcRn_Complex-BAY794620-Concentration",
-              "X": "Time",
-              "Y": "BAY794620_autoradiography|Organism|Brain|BAY794620|Whole Organ incl. FcRn_Complex-BAY794620",
-              "CurveOptions": {
-                "Color": "#008000",
-                "LegendIndex": 1
-              }
-            },
-            {
-              "Name": "Autoradiography.Brain.1-BAY794620-Brain-Tissue-Measurement",
-              "X": "BAY794620_Autoradiography_PKSimImport.Brain.1|Time",
-              "Y": "BAY794620_Autoradiography_PKSimImport.Brain.1|ObservedData|Brain|Tissue|BAY794620|Measurement",
-              "CurveOptions": {
-                "Color": "#008000",
-                "LegendIndex": 2,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "Autoradiography.Brain.2-BAY794620-Brain-Tissue-Measurement",
-              "X": "BAY794620_Autoradiography_PKSimImport.Brain.2|Time",
-              "Y": "BAY794620_Autoradiography_PKSimImport.Brain.2|ObservedData|Brain|Tissue|BAY794620|Measurement",
-              "CurveOptions": {
-                "Color": "#008000",
-                "LegendIndex": 3,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            }
-          ],
-          "Name": "Brain",
-          "FontAndSize": {
-            "Fonts": {
-              "AxisSize": 10,
-              "LegendSize": 8,
-              "TitleSize": 16,
-              "DescriptionSize": 12,
-              "OriginSize": 8,
-              "FontFamilyName": "Microsoft Sans Serif",
-              "WatermarkSize": 32
-            }
-          },
-          "Settings": {
-            "SideMarginsEnabled": true,
-            "LegendPosition": "RightInside",
-            "BackColor": "#00FFFFFF",
-            "DiagramBackColor": "#FFFFFF"
-          },
-          "OriginText": "BAY794620\nBAY794620_autoradiography\n2023-03-14 09:12"
-        },
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "µmol/l",
-              "Dimension": "Concentration (molar)",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "Min": 0.0001,
-              "Max": 0.1,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "BAY794620-Stomach-Whole Organ incl. FcRn_Complex-BAY794620-Concentration",
-              "X": "Time",
-              "Y": "BAY794620_autoradiography|Organism|Stomach|BAY794620|Whole Organ incl. FcRn_Complex-BAY794620",
-              "CurveOptions": {
-                "Color": "#8080FF",
-                "LegendIndex": 1
-              }
-            },
-            {
-              "Name": "Autoradiography.Stomach.1-BAY794620-Stomach-Tissue-Measurement",
-              "X": "BAY794620_Autoradiography_PKSimImport.Stomach.1|Time",
-              "Y": "BAY794620_Autoradiography_PKSimImport.Stomach.1|ObservedData|Stomach|Tissue|BAY794620|Measurement",
-              "CurveOptions": {
-                "Color": "#8080FF",
-                "LegendIndex": 2,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "Autoradiography.Stomach.2-BAY794620-Stomach-Tissue-Measurement",
-              "X": "BAY794620_Autoradiography_PKSimImport.Stomach.2|Time",
-              "Y": "BAY794620_Autoradiography_PKSimImport.Stomach.2|ObservedData|Stomach|Tissue|BAY794620|Measurement",
-              "CurveOptions": {
-                "Color": "#8080FF",
-                "LegendIndex": 3,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            }
-          ],
-          "Name": "Stomach",
-          "FontAndSize": {
-            "Fonts": {
-              "AxisSize": 10,
-              "LegendSize": 8,
-              "TitleSize": 16,
-              "DescriptionSize": 12,
-              "OriginSize": 8,
-              "FontFamilyName": "Microsoft Sans Serif",
-              "WatermarkSize": 32
-            }
-          },
-          "Settings": {
-            "SideMarginsEnabled": true,
-            "LegendPosition": "RightInside",
-            "BackColor": "#00FFFFFF",
-            "DiagramBackColor": "#FFFFFF"
-          },
-          "OriginText": "BAY794620\nBAY794620_autoradiography\n2023-03-14 09:12"
-        },
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "µmol/l",
-              "Dimension": "Concentration (molar)",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "Min": 0.0001,
-              "Max": 0.1,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "BAY794620-Pancreas-Whole Organ incl. FcRn_Complex-BAY794620-Concentration",
-              "X": "Time",
-              "Y": "BAY794620_autoradiography|Organism|Pancreas|BAY794620|Whole Organ incl. FcRn_Complex-BAY794620",
-              "CurveOptions": {
-                "Color": "#C000C0",
-                "LegendIndex": 1
-              }
-            },
-            {
-              "Name": "Autoradiography.Pancreas.1-BAY794620-Pancreas-Tissue-Measurement",
-              "X": "BAY794620_Autoradiography_PKSimImport.Pancreas.1|Time",
-              "Y": "BAY794620_Autoradiography_PKSimImport.Pancreas.1|ObservedData|Pancreas|Tissue|BAY794620|Measurement",
-              "CurveOptions": {
-                "Color": "#C000C0",
-                "LegendIndex": 2,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "Autoradiography.Pancreas.2-BAY794620-Pancreas-Tissue-Measurement",
-              "X": "BAY794620_Autoradiography_PKSimImport.Pancreas.2|Time",
-              "Y": "BAY794620_Autoradiography_PKSimImport.Pancreas.2|ObservedData|Pancreas|Tissue|BAY794620|Measurement",
-              "CurveOptions": {
-                "Color": "#C000C0",
-                "LegendIndex": 3,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            }
-          ],
-          "Name": "Pancreas",
-          "FontAndSize": {
-            "Fonts": {
-              "AxisSize": 10,
-              "LegendSize": 8,
-              "TitleSize": 16,
-              "DescriptionSize": 12,
-              "OriginSize": 8,
-              "FontFamilyName": "Microsoft Sans Serif",
-              "WatermarkSize": 32
-            }
-          },
-          "Settings": {
-            "SideMarginsEnabled": true,
-            "LegendPosition": "RightInside",
-            "BackColor": "#00FFFFFF",
-            "DiagramBackColor": "#FFFFFF"
-          },
-          "OriginText": "BAY794620\nBAY794620_autoradiography\n2023-03-14 09:12"
-        },
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "µmol/l",
-              "Dimension": "Concentration (molar)",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "Min": 0.0001,
-              "Max": 0.1,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "BAY794620-Small Intestine-Whole Organ (Small Intestine) incl. FcRn_Complex-BAY794620-Concentration",
-              "X": "Time",
-              "Y": "BAY794620_autoradiography|Organism|SmallIntestine|BAY794620|Whole Organ (Small Intestine) incl. FcRn_Complex-BAY794620",
-              "CurveOptions": {
-                "Color": "#804040",
-                "LegendIndex": 1
-              }
-            },
-            {
-              "Name": "Autoradiography.SmallIntestine.1-BAY794620-SmallIntestine-Tissue-Measurement",
-              "X": "BAY794620_Autoradiography_PKSimImport.SmallIntestine.1|Time",
-              "Y": "BAY794620_Autoradiography_PKSimImport.SmallIntestine.1|ObservedData|SmallIntestine|Tissue|BAY794620|Measurement",
-              "CurveOptions": {
-                "Color": "#804040",
-                "LegendIndex": 2,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "Autoradiography.SmallIntestine.2-BAY794620-SmallIntestine-Tissue-Measurement",
-              "X": "BAY794620_Autoradiography_PKSimImport.SmallIntestine.2|Time",
-              "Y": "BAY794620_Autoradiography_PKSimImport.SmallIntestine.2|ObservedData|SmallIntestine|Tissue|BAY794620|Measurement",
-              "CurveOptions": {
-                "Color": "#804040",
-                "LegendIndex": 3,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            }
-          ],
-          "Name": "Small Intestine",
-          "FontAndSize": {
-            "Fonts": {
-              "AxisSize": 10,
-              "LegendSize": 8,
-              "TitleSize": 16,
-              "DescriptionSize": 12,
-              "OriginSize": 8,
-              "FontFamilyName": "Microsoft Sans Serif",
-              "WatermarkSize": 32
-            }
-          },
-          "Settings": {
-            "SideMarginsEnabled": true,
-            "LegendPosition": "RightInside",
-            "BackColor": "#00FFFFFF",
-            "DiagramBackColor": "#FFFFFF"
-          },
-          "OriginText": "BAY794620\nBAY794620_autoradiography\n2023-03-14 09:12"
-        },
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "µmol/l",
-              "Dimension": "Concentration (molar)",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "Min": 0.0001,
-              "Max": 0.1,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "BAY794620-Gonads-Whole Organ incl. FcRn_Complex-BAY794620-Concentration",
-              "X": "Time",
-              "Y": "BAY794620_autoradiography|Organism|Gonads|BAY794620|Whole Organ incl. FcRn_Complex-BAY794620",
-              "CurveOptions": {
-                "Color": "#C0C000",
-                "LegendIndex": 1
-              }
-            },
-            {
-              "Name": "Autoradiography.Ovaries.1-BAY794620-Ovaries-Tissue-Measurement",
-              "X": "BAY794620_Autoradiography_PKSimImport.Ovaries.1|Time",
-              "Y": "BAY794620_Autoradiography_PKSimImport.Ovaries.1|ObservedData|Ovaries|Tissue|BAY794620|Measurement",
-              "CurveOptions": {
-                "Color": "#C0C000",
-                "LegendIndex": 2,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "Autoradiography.Ovaries.2-BAY794620-Ovaries-Tissue-Measurement",
-              "X": "BAY794620_Autoradiography_PKSimImport.Ovaries.2|Time",
-              "Y": "BAY794620_Autoradiography_PKSimImport.Ovaries.2|ObservedData|Ovaries|Tissue|BAY794620|Measurement",
-              "CurveOptions": {
-                "Color": "#C0C000",
-                "LegendIndex": 3,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            }
-          ],
-          "Name": "Ovaries",
-          "FontAndSize": {
-            "Fonts": {
-              "AxisSize": 10,
-              "LegendSize": 8,
-              "TitleSize": 16,
-              "DescriptionSize": 12,
-              "OriginSize": 8,
-              "FontFamilyName": "Microsoft Sans Serif",
-              "WatermarkSize": 32
-            }
-          },
-          "Settings": {
-            "SideMarginsEnabled": true,
-            "LegendPosition": "RightInside",
-            "BackColor": "#00FFFFFF",
-            "DiagramBackColor": "#FFFFFF"
-          },
-          "OriginText": "BAY794620\nBAY794620_autoradiography\n2023-03-14 09:12"
-        }
-      ]
+      "HasResults": false
     },
     {
       "Name": "BAY794620_tissueDissection",
@@ -2051,17 +860,20 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
               "Value": 2.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "Resolution",
               "Value": 20.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -2070,7 +882,8 @@
             {
               "Name": "Start time",
               "Value": 2.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
@@ -2083,7 +896,8 @@
             {
               "Name": "Resolution",
               "Value": 4.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         }
@@ -2185,1051 +999,7 @@
           }
         }
       ],
-      "HasResults": true,
-      "IndividualAnalyses": [
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "µmol/l",
-              "Dimension": "Concentration (molar)",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "BAY794620-Venous Blood-Whole Blood-Concentration",
-              "X": "Time",
-              "Y": "BAY794620_tissueDissection|Organism|VenousBlood|BAY794620|Whole Blood",
-              "CurveOptions": {
-                "Color": "#FF0000",
-                "LegendIndex": 1
-              }
-            },
-            {
-              "Name": "TissueDissection.Blood-BAY794620-Blood-WholeBlood-Measurement",
-              "X": "BAY794620_TissueDissection_PKSimImport.Blood|Time",
-              "Y": "BAY794620_TissueDissection_PKSimImport.Blood|ObservedData|Blood|WholeBlood|BAY794620|Measurement",
-              "CurveOptions": {
-                "Color": "#FF0000",
-                "LegendIndex": 2,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            }
-          ],
-          "Name": "Blood - lin scale",
-          "FontAndSize": {
-            "Fonts": {
-              "AxisSize": 10,
-              "LegendSize": 8,
-              "TitleSize": 16,
-              "DescriptionSize": 12,
-              "OriginSize": 8,
-              "FontFamilyName": "Microsoft Sans Serif",
-              "WatermarkSize": 32
-            }
-          },
-          "Settings": {
-            "SideMarginsEnabled": true,
-            "LegendPosition": "RightInside",
-            "BackColor": "#00FFFFFF",
-            "DiagramBackColor": "#FFFFFF"
-          },
-          "OriginText": "BAY794620\nBAY794620_tissueDissection\n2023-03-14 09:12"
-        },
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "µmol/l",
-              "Dimension": "Concentration (molar)",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "Min": 1E-06,
-              "Max": 0.001,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "BAY794620-Venous Blood-Whole Blood-Concentration",
-              "X": "Time",
-              "Y": "BAY794620_tissueDissection|Organism|VenousBlood|BAY794620|Whole Blood",
-              "CurveOptions": {
-                "Color": "#FF0000",
-                "LegendIndex": 3
-              }
-            },
-            {
-              "Name": "TissueDissection.Blood-BAY794620-Blood-WholeBlood-Measurement",
-              "X": "BAY794620_TissueDissection_PKSimImport.Blood|Time",
-              "Y": "BAY794620_TissueDissection_PKSimImport.Blood|ObservedData|Blood|WholeBlood|BAY794620|Measurement",
-              "CurveOptions": {
-                "Color": "#FF0000",
-                "LegendIndex": 4,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            }
-          ],
-          "Name": "Blood - log scale",
-          "FontAndSize": {
-            "Fonts": {
-              "AxisSize": 10,
-              "LegendSize": 8,
-              "TitleSize": 16,
-              "DescriptionSize": 12,
-              "OriginSize": 8,
-              "FontFamilyName": "Microsoft Sans Serif",
-              "WatermarkSize": 32
-            }
-          },
-          "Settings": {
-            "SideMarginsEnabled": true,
-            "LegendPosition": "RightInside",
-            "BackColor": "#FFFFFF",
-            "DiagramBackColor": "#FFFFFF"
-          },
-          "OriginText": "BAY794620\nBAY794620_tissueDissection\n2023-03-14 09:12"
-        },
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "µmol/l",
-              "Dimension": "Concentration (molar)",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "Min": 1E-06,
-              "Max": 0.001,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "BAY794620-Lung-Whole Organ incl. FcRn_Complex-BAY794620-Concentration",
-              "X": "Time",
-              "Y": "BAY794620_tissueDissection|Organism|Lung|BAY794620|Whole Organ incl. FcRn_Complex-BAY794620",
-              "CurveOptions": {
-                "Color": "#0000FF",
-                "LegendIndex": 3
-              }
-            },
-            {
-              "Name": "TissueDissection.Lung-BAY794620-Lung-Tissue-Measurement",
-              "X": "BAY794620_TissueDissection_PKSimImport.Lung|Time",
-              "Y": "BAY794620_TissueDissection_PKSimImport.Lung|ObservedData|Lung|Tissue|BAY794620|Measurement",
-              "CurveOptions": {
-                "Color": "#0000FF",
-                "LegendIndex": 4,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            }
-          ],
-          "Name": "Lung",
-          "FontAndSize": {
-            "Fonts": {
-              "AxisSize": 10,
-              "LegendSize": 8,
-              "TitleSize": 16,
-              "DescriptionSize": 12,
-              "OriginSize": 8,
-              "FontFamilyName": "Microsoft Sans Serif",
-              "WatermarkSize": 32
-            }
-          },
-          "Settings": {
-            "SideMarginsEnabled": true,
-            "LegendPosition": "RightInside",
-            "BackColor": "#FFFFFF",
-            "DiagramBackColor": "#FFFFFF"
-          },
-          "OriginText": "BAY794620\nBAY794620_tissueDissection\n2023-03-14 09:12"
-        },
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "µmol/l",
-              "Dimension": "Concentration (molar)",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "Min": 1E-06,
-              "Max": 0.001,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "BAY794620-Kidney-Whole Organ incl. FcRn_Complex-BAY794620-Concentration",
-              "X": "Time",
-              "Y": "BAY794620_tissueDissection|Organism|Kidney|BAY794620|Whole Organ incl. FcRn_Complex-BAY794620",
-              "CurveOptions": {
-                "Color": "#FF8000",
-                "LegendIndex": 9
-              }
-            },
-            {
-              "Name": "TissueDissection.Kidney-BAY794620-Kidney-Tissue-Measurement",
-              "X": "BAY794620_TissueDissection_PKSimImport.Kidney|Time",
-              "Y": "BAY794620_TissueDissection_PKSimImport.Kidney|ObservedData|Kidney|Tissue|BAY794620|Measurement",
-              "CurveOptions": {
-                "Color": "#FF8000",
-                "LegendIndex": 10,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            }
-          ],
-          "Name": "Kidney",
-          "FontAndSize": {
-            "Fonts": {
-              "AxisSize": 10,
-              "LegendSize": 8,
-              "TitleSize": 16,
-              "DescriptionSize": 12,
-              "OriginSize": 8,
-              "FontFamilyName": "Microsoft Sans Serif",
-              "WatermarkSize": 32
-            }
-          },
-          "Settings": {
-            "SideMarginsEnabled": true,
-            "LegendPosition": "RightInside",
-            "BackColor": "#FFFFFF",
-            "DiagramBackColor": "#FFFFFF"
-          },
-          "OriginText": "BAY794620\nBAY794620_tissueDissection\n2023-03-14 09:12"
-        },
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "µmol/l",
-              "Dimension": "Concentration (molar)",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "Min": 1E-06,
-              "Max": 0.001,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "BAY794620-Bone-Whole Organ incl. FcRn_Complex-BAY794620-Concentration",
-              "X": "Time",
-              "Y": "BAY794620_tissueDissection|Organism|Bone|BAY794620|Whole Organ incl. FcRn_Complex-BAY794620",
-              "CurveOptions": {
-                "Color": "#0000C0",
-                "LegendIndex": 3
-              }
-            },
-            {
-              "Name": "TissueDissection.Bone-BAY794620-Bone-Tissue-Measurement",
-              "X": "BAY794620_TissueDissection_PKSimImport.Bone|Time",
-              "Y": "BAY794620_TissueDissection_PKSimImport.Bone|ObservedData|Bone|Tissue|BAY794620|Measurement",
-              "CurveOptions": {
-                "Color": "#0000C0",
-                "LegendIndex": 4,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            }
-          ],
-          "Name": "Bone",
-          "FontAndSize": {
-            "Fonts": {
-              "AxisSize": 10,
-              "LegendSize": 8,
-              "TitleSize": 16,
-              "DescriptionSize": 12,
-              "OriginSize": 8,
-              "FontFamilyName": "Microsoft Sans Serif",
-              "WatermarkSize": 32
-            }
-          },
-          "Settings": {
-            "SideMarginsEnabled": true,
-            "LegendPosition": "RightInside",
-            "BackColor": "#FFFFFF",
-            "DiagramBackColor": "#FFFFFF"
-          },
-          "OriginText": "BAY794620\nBAY794620_tissueDissection\n2023-03-14 09:12"
-        },
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "µmol/l",
-              "Dimension": "Concentration (molar)",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "Min": 1E-06,
-              "Max": 0.001,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "BAY794620-Muscle-Whole Organ incl. FcRn_Complex-BAY794620-Concentration",
-              "X": "Time",
-              "Y": "BAY794620_tissueDissection|Organism|Muscle|BAY794620|Whole Organ incl. FcRn_Complex-BAY794620",
-              "CurveOptions": {
-                "Color": "#800080",
-                "LegendIndex": 3
-              }
-            },
-            {
-              "Name": "TissueDissection.Muscle-BAY794620-Muscle-Tissue-Measurement",
-              "X": "BAY794620_TissueDissection_PKSimImport.Muscle|Time",
-              "Y": "BAY794620_TissueDissection_PKSimImport.Muscle|ObservedData|Muscle|Tissue|BAY794620|Measurement",
-              "CurveOptions": {
-                "Color": "#800080",
-                "LegendIndex": 4,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            }
-          ],
-          "Name": "Muscle",
-          "FontAndSize": {
-            "Fonts": {
-              "AxisSize": 10,
-              "LegendSize": 8,
-              "TitleSize": 16,
-              "DescriptionSize": 12,
-              "OriginSize": 8,
-              "FontFamilyName": "Microsoft Sans Serif",
-              "WatermarkSize": 32
-            }
-          },
-          "Settings": {
-            "SideMarginsEnabled": true,
-            "LegendPosition": "RightInside",
-            "BackColor": "#FFFFFF",
-            "DiagramBackColor": "#FFFFFF"
-          },
-          "OriginText": "BAY794620\nBAY794620_tissueDissection\n2023-03-14 09:12"
-        },
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "µmol/l",
-              "Dimension": "Concentration (molar)",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "Min": 1E-06,
-              "Max": 0.001,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "BAY794620-Spleen-Whole Organ incl. FcRn_Complex-BAY794620-Concentration",
-              "X": "Time",
-              "Y": "BAY794620_tissueDissection|Organism|Spleen|BAY794620|Whole Organ incl. FcRn_Complex-BAY794620",
-              "CurveOptions": {
-                "Color": "#00FF00",
-                "LegendIndex": 14
-              }
-            },
-            {
-              "Name": "TissueDissection.Spleen-BAY794620-Spleen-Tissue-Measurement",
-              "X": "BAY794620_TissueDissection_PKSimImport.Spleen|Time",
-              "Y": "BAY794620_TissueDissection_PKSimImport.Spleen|ObservedData|Spleen|Tissue|BAY794620|Measurement",
-              "CurveOptions": {
-                "Color": "#00FF00",
-                "LegendIndex": 15,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            }
-          ],
-          "Name": "Spleen",
-          "FontAndSize": {
-            "Fonts": {
-              "AxisSize": 10,
-              "LegendSize": 8,
-              "TitleSize": 16,
-              "DescriptionSize": 12,
-              "OriginSize": 8,
-              "FontFamilyName": "Microsoft Sans Serif",
-              "WatermarkSize": 32
-            }
-          },
-          "Settings": {
-            "SideMarginsEnabled": true,
-            "LegendPosition": "RightInside",
-            "BackColor": "#FFFFFF",
-            "DiagramBackColor": "#FFFFFF"
-          },
-          "OriginText": "BAY794620\nBAY794620_tissueDissection\n2023-03-14 09:12"
-        },
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "µmol/l",
-              "Dimension": "Concentration (molar)",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "Min": 1E-06,
-              "Max": 0.001,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "BAY794620-Liver-Whole Organ incl. FcRn_Complex (Liver)-BAY794620-Concentration",
-              "X": "Time",
-              "Y": "BAY794620_tissueDissection|Organism|Liver|BAY794620|Whole Organ incl. FcRn_Complex (Liver)-BAY794620",
-              "CurveOptions": {
-                "Color": "#C04000",
-                "LegendIndex": 12
-              }
-            },
-            {
-              "Name": "TissueDissection.Liver-BAY794620-Liver-Tissue-Measurement",
-              "X": "BAY794620_TissueDissection_PKSimImport.Liver|Time",
-              "Y": "BAY794620_TissueDissection_PKSimImport.Liver|ObservedData|Liver|Tissue|BAY794620|Measurement",
-              "CurveOptions": {
-                "Color": "#C04000",
-                "LegendIndex": 13,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            }
-          ],
-          "Name": "Liver",
-          "FontAndSize": {
-            "Fonts": {
-              "AxisSize": 10,
-              "LegendSize": 8,
-              "TitleSize": 16,
-              "DescriptionSize": 12,
-              "OriginSize": 8,
-              "FontFamilyName": "Microsoft Sans Serif",
-              "WatermarkSize": 32
-            }
-          },
-          "Settings": {
-            "SideMarginsEnabled": true,
-            "LegendPosition": "RightInside",
-            "BackColor": "#FFFFFF",
-            "DiagramBackColor": "#FFFFFF"
-          },
-          "OriginText": "BAY794620\nBAY794620_tissueDissection\n2023-03-14 09:12"
-        },
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "µmol/l",
-              "Dimension": "Concentration (molar)",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "Min": 1E-06,
-              "Max": 0.001,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "BAY794620-Heart-Whole Organ incl. FcRn_Complex-BAY794620-Concentration",
-              "X": "Time",
-              "Y": "BAY794620_tissueDissection|Organism|Heart|BAY794620|Whole Organ incl. FcRn_Complex-BAY794620",
-              "CurveOptions": {
-                "Color": "#FF8080",
-                "LegendIndex": 10
-              }
-            },
-            {
-              "Name": "TissueDissection.Heart-BAY794620-Heart-Tissue-Measurement",
-              "X": "BAY794620_TissueDissection_PKSimImport.Heart|Time",
-              "Y": "BAY794620_TissueDissection_PKSimImport.Heart|ObservedData|Heart|Tissue|BAY794620|Measurement",
-              "CurveOptions": {
-                "Color": "#FF8080",
-                "LegendIndex": 11,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            }
-          ],
-          "Name": "Heart",
-          "FontAndSize": {
-            "Fonts": {
-              "AxisSize": 10,
-              "LegendSize": 8,
-              "TitleSize": 16,
-              "DescriptionSize": 12,
-              "OriginSize": 8,
-              "FontFamilyName": "Microsoft Sans Serif",
-              "WatermarkSize": 32
-            }
-          },
-          "Settings": {
-            "SideMarginsEnabled": true,
-            "LegendPosition": "RightInside",
-            "BackColor": "#FFFFFF",
-            "DiagramBackColor": "#FFFFFF"
-          },
-          "OriginText": "BAY794620\nBAY794620_tissueDissection\n2023-03-14 09:12"
-        },
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "µmol/l",
-              "Dimension": "Concentration (molar)",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "Min": 1E-06,
-              "Max": 0.001,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "BAY794620-Fat-Whole Organ incl. FcRn_Complex-BAY794620-Concentration",
-              "X": "Time",
-              "Y": "BAY794620_tissueDissection|Organism|Fat|BAY794620|Whole Organ incl. FcRn_Complex-BAY794620",
-              "CurveOptions": {
-                "Color": "#00C0C0",
-                "LegendIndex": 11
-              }
-            },
-            {
-              "Name": "TissueDissection.Fat-BAY794620-Fat-Tissue-Measurement",
-              "X": "BAY794620_TissueDissection_PKSimImport.Fat|Time",
-              "Y": "BAY794620_TissueDissection_PKSimImport.Fat|ObservedData|Fat|Tissue|BAY794620|Measurement",
-              "CurveOptions": {
-                "Color": "#00C0C0",
-                "LegendIndex": 12,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            }
-          ],
-          "Name": "Fat",
-          "FontAndSize": {
-            "Fonts": {
-              "AxisSize": 10,
-              "LegendSize": 8,
-              "TitleSize": 16,
-              "DescriptionSize": 12,
-              "OriginSize": 8,
-              "FontFamilyName": "Microsoft Sans Serif",
-              "WatermarkSize": 32
-            }
-          },
-          "Settings": {
-            "SideMarginsEnabled": true,
-            "LegendPosition": "RightInside",
-            "BackColor": "#FFFFFF",
-            "DiagramBackColor": "#FFFFFF"
-          },
-          "OriginText": "BAY794620\nBAY794620_tissueDissection\n2023-03-14 09:12"
-        },
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "µmol/l",
-              "Dimension": "Concentration (molar)",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "Min": 1E-06,
-              "Max": 0.001,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "BAY794620-Brain-Whole Organ incl. FcRn_Complex-BAY794620-Concentration",
-              "X": "Time",
-              "Y": "BAY794620_tissueDissection|Organism|Brain|BAY794620|Whole Organ incl. FcRn_Complex-BAY794620",
-              "CurveOptions": {
-                "Color": "#008000",
-                "LegendIndex": 4
-              }
-            },
-            {
-              "Name": "TissueDissection.Brain-BAY794620-Brain-Tissue-Measurement",
-              "X": "BAY794620_TissueDissection_PKSimImport.Brain|Time",
-              "Y": "BAY794620_TissueDissection_PKSimImport.Brain|ObservedData|Brain|Tissue|BAY794620|Measurement",
-              "CurveOptions": {
-                "Color": "#008000",
-                "LegendIndex": 5,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            }
-          ],
-          "Name": "Brain",
-          "FontAndSize": {
-            "Fonts": {
-              "AxisSize": 10,
-              "LegendSize": 8,
-              "TitleSize": 16,
-              "DescriptionSize": 12,
-              "OriginSize": 8,
-              "FontFamilyName": "Microsoft Sans Serif",
-              "WatermarkSize": 32
-            }
-          },
-          "Settings": {
-            "SideMarginsEnabled": true,
-            "LegendPosition": "RightInside",
-            "BackColor": "#FFFFFF",
-            "DiagramBackColor": "#FFFFFF"
-          },
-          "OriginText": "BAY794620\nBAY794620_tissueDissection\n2023-03-14 09:12"
-        },
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "µmol/l",
-              "Dimension": "Concentration (molar)",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "Min": 1E-06,
-              "Max": 0.001,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "BAY794620-Stomach-Whole Organ incl. FcRn_Complex-BAY794620-Concentration",
-              "X": "Time",
-              "Y": "BAY794620_tissueDissection|Organism|Stomach|BAY794620|Whole Organ incl. FcRn_Complex-BAY794620",
-              "CurveOptions": {
-                "Color": "#8080FF",
-                "LegendIndex": 6
-              }
-            },
-            {
-              "Name": "TissueDissection.Stomach-BAY794620-Stomach-Tissue-Measurement",
-              "X": "BAY794620_TissueDissection_PKSimImport.Stomach|Time",
-              "Y": "BAY794620_TissueDissection_PKSimImport.Stomach|ObservedData|Stomach|Tissue|BAY794620|Measurement",
-              "CurveOptions": {
-                "Color": "#8080FF",
-                "LegendIndex": 7,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            }
-          ],
-          "Name": "Stomach",
-          "FontAndSize": {
-            "Fonts": {
-              "AxisSize": 10,
-              "LegendSize": 8,
-              "TitleSize": 16,
-              "DescriptionSize": 12,
-              "OriginSize": 8,
-              "FontFamilyName": "Microsoft Sans Serif",
-              "WatermarkSize": 32
-            }
-          },
-          "Settings": {
-            "SideMarginsEnabled": true,
-            "LegendPosition": "RightInside",
-            "BackColor": "#FFFFFF",
-            "DiagramBackColor": "#FFFFFF"
-          },
-          "OriginText": "BAY794620\nBAY794620_tissueDissection\n2023-03-14 09:12"
-        },
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "µmol/l",
-              "Dimension": "Concentration (molar)",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "Min": 1E-06,
-              "Max": 0.001,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "BAY794620-Pancreas-Whole Organ incl. FcRn_Complex-BAY794620-Concentration",
-              "X": "Time",
-              "Y": "BAY794620_tissueDissection|Organism|Pancreas|BAY794620|Whole Organ incl. FcRn_Complex-BAY794620",
-              "CurveOptions": {
-                "Color": "#C000C0",
-                "LegendIndex": 13
-              }
-            },
-            {
-              "Name": "TissueDissection.Pancreas-BAY794620-Pancreas-Tissue-Measurement",
-              "X": "BAY794620_TissueDissection_PKSimImport.Pancreas|Time",
-              "Y": "BAY794620_TissueDissection_PKSimImport.Pancreas|ObservedData|Pancreas|Tissue|BAY794620|Measurement",
-              "CurveOptions": {
-                "Color": "#C000C0",
-                "LegendIndex": 14,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            }
-          ],
-          "Name": "Pancreas",
-          "FontAndSize": {
-            "Fonts": {
-              "AxisSize": 10,
-              "LegendSize": 8,
-              "TitleSize": 16,
-              "DescriptionSize": 12,
-              "OriginSize": 8,
-              "FontFamilyName": "Microsoft Sans Serif",
-              "WatermarkSize": 32
-            }
-          },
-          "Settings": {
-            "SideMarginsEnabled": true,
-            "LegendPosition": "RightInside",
-            "BackColor": "#FFFFFF",
-            "DiagramBackColor": "#FFFFFF"
-          },
-          "OriginText": "BAY794620\nBAY794620_tissueDissection\n2023-03-14 09:12"
-        },
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "µmol/l",
-              "Dimension": "Concentration (molar)",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "Min": 1E-06,
-              "Max": 0.001,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "BAY794620-Small Intestine-Whole Organ (Small Intestine) incl. FcRn_Complex-BAY794620-Concentration",
-              "X": "Time",
-              "Y": "BAY794620_tissueDissection|Organism|SmallIntestine|BAY794620|Whole Organ (Small Intestine) incl. FcRn_Complex-BAY794620",
-              "CurveOptions": {
-                "Color": "#804040",
-                "LegendIndex": 1
-              }
-            },
-            {
-              "Name": "BAY794620-Large Intestine-Whole Organ (Large Intestine) incl. FcRn_Complex-BAY794620-Concentration",
-              "X": "Time",
-              "Y": "BAY794620_tissueDissection|Organism|LargeIntestine|BAY794620|Whole Organ (Large Intestine) incl. FcRn_Complex-BAY794620",
-              "CurveOptions": {
-                "Color": "#808080",
-                "LegendIndex": 2
-              }
-            },
-            {
-              "Name": "TissueDissection.Intestine-BAY794620-Intestine-Tissue-Measurement",
-              "X": "BAY794620_TissueDissection_PKSimImport.Intestine|Time",
-              "Y": "BAY794620_TissueDissection_PKSimImport.Intestine|ObservedData|Intestine|Tissue|BAY794620|Measurement",
-              "CurveOptions": {
-                "Color": "#804040",
-                "LegendIndex": 3,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            }
-          ],
-          "Name": "Intestine",
-          "FontAndSize": {
-            "Fonts": {
-              "AxisSize": 10,
-              "LegendSize": 8,
-              "TitleSize": 16,
-              "DescriptionSize": 12,
-              "OriginSize": 8,
-              "FontFamilyName": "Microsoft Sans Serif",
-              "WatermarkSize": 32
-            }
-          },
-          "Settings": {
-            "SideMarginsEnabled": true,
-            "LegendPosition": "RightInside",
-            "BackColor": "#00FFFFFF",
-            "DiagramBackColor": "#FFFFFF"
-          },
-          "OriginText": "BAY794620\nBAY794620_tissueDissection\n2023-03-14 09:12"
-        },
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "µmol/l",
-              "Dimension": "Concentration (molar)",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "Min": 1E-06,
-              "Max": 0.001,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "BAY794620-Gonads-Whole Organ incl. FcRn_Complex-BAY794620-Concentration",
-              "X": "Time",
-              "Y": "BAY794620_tissueDissection|Organism|Gonads|BAY794620|Whole Organ incl. FcRn_Complex-BAY794620",
-              "CurveOptions": {
-                "Color": "#C0C000",
-                "LegendIndex": 1
-              }
-            },
-            {
-              "Name": "TissueDissection.Ovaries-BAY794620-Ovaries-Tissue-Measurement",
-              "X": "BAY794620_TissueDissection_PKSimImport.Ovaries|Time",
-              "Y": "BAY794620_TissueDissection_PKSimImport.Ovaries|ObservedData|Ovaries|Tissue|BAY794620|Measurement",
-              "CurveOptions": {
-                "Color": "#C0C000",
-                "LegendIndex": 2,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            }
-          ],
-          "Name": "Ovaries",
-          "FontAndSize": {
-            "Fonts": {
-              "AxisSize": 10,
-              "LegendSize": 8,
-              "TitleSize": 16,
-              "DescriptionSize": 12,
-              "OriginSize": 8,
-              "FontFamilyName": "Microsoft Sans Serif",
-              "WatermarkSize": 32
-            }
-          },
-          "Settings": {
-            "SideMarginsEnabled": true,
-            "LegendPosition": "RightInside",
-            "BackColor": "#00FFFFFF",
-            "DiagramBackColor": "#FFFFFF"
-          },
-          "OriginText": "BAY794620\nBAY794620_tissueDissection\n2023-03-14 09:12"
-        }
-      ]
+      "HasResults": false
     }
   ],
   "ObservedData": [
@@ -3238,27 +1008,33 @@
       "ExtendedProperties": [
         {
           "Name": "Sheet",
-          "Value": "All"
+          "Value": "All",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Blood"
+          "Value": "Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "WholeBlood"
+          "Value": "WholeBlood",
+          "Type": "String"
         },
         {
           "Name": "Molecule",
-          "Value": "BAY794620"
+          "Value": "BAY794620",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Mouse"
+          "Value": "Mouse",
+          "Type": "String"
         },
         {
           "Name": "Point",
-          "Value": "1"
+          "Value": 1.0,
+          "Type": "Double"
         }
       ],
       "Columns": [
@@ -3278,7 +1054,7 @@
             3.3764,
             1.7232,
             0.49566,
-            1.50690007
+            1.5069001
           ],
           "Dimension": "Concentration (mass)",
           "Unit": "mg/l"
@@ -3311,27 +1087,33 @@
       "ExtendedProperties": [
         {
           "Name": "Sheet",
-          "Value": "All"
+          "Value": "All",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Blood"
+          "Value": "Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "WholeBlood"
+          "Value": "WholeBlood",
+          "Type": "String"
         },
         {
           "Name": "Molecule",
-          "Value": "BAY794620"
+          "Value": "BAY794620",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Mouse"
+          "Value": "Mouse",
+          "Type": "String"
         },
         {
           "Name": "Point",
-          "Value": "2"
+          "Value": 2.0,
+          "Type": "Double"
         }
       ],
       "Columns": [
@@ -3347,11 +1129,11 @@
           },
           "Values": [
             6.8242,
-            7.75650024,
+            7.7565002,
             3.3345,
             2.3271,
             1.2785,
-            1.08660007,
+            1.0866001,
             0.36343
           ],
           "Dimension": "Concentration (mass)",
@@ -3386,27 +1168,33 @@
       "ExtendedProperties": [
         {
           "Name": "Sheet",
-          "Value": "All"
+          "Value": "All",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Fat"
+          "Value": "Fat",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Tissue"
+          "Value": "Tissue",
+          "Type": "String"
         },
         {
           "Name": "Molecule",
-          "Value": "BAY794620"
+          "Value": "BAY794620",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Mouse"
+          "Value": "Mouse",
+          "Type": "String"
         },
         {
           "Name": "Point",
-          "Value": "1"
+          "Value": 1.0,
+          "Type": "Double"
         }
       ],
       "Columns": [
@@ -3423,7 +1211,7 @@
           "Values": [
             0.17241,
             0.26665,
-            0.240759984,
+            0.24075998,
             0.34423,
             0.065036,
             0.109280005
@@ -3459,27 +1247,33 @@
       "ExtendedProperties": [
         {
           "Name": "Sheet",
-          "Value": "All"
+          "Value": "All",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Fat"
+          "Value": "Fat",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Tissue"
+          "Value": "Tissue",
+          "Type": "String"
         },
         {
           "Name": "Molecule",
-          "Value": "BAY794620"
+          "Value": "BAY794620",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Mouse"
+          "Value": "Mouse",
+          "Type": "String"
         },
         {
           "Name": "Point",
-          "Value": "2"
+          "Value": 2.0,
+          "Type": "Double"
         }
       ],
       "Columns": [
@@ -3495,10 +1289,10 @@
           },
           "Values": [
             0.19173,
-            0.277270019,
+            0.27727002,
             0.27017,
             0.22359,
-            0.207270011,
+            0.20727001,
             0.071384,
             0.043933
           ],
@@ -3534,27 +1328,33 @@
       "ExtendedProperties": [
         {
           "Name": "Sheet",
-          "Value": "All"
+          "Value": "All",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Brain"
+          "Value": "Brain",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Tissue"
+          "Value": "Tissue",
+          "Type": "String"
         },
         {
           "Name": "Molecule",
-          "Value": "BAY794620"
+          "Value": "BAY794620",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Mouse"
+          "Value": "Mouse",
+          "Type": "String"
         },
         {
           "Name": "Point",
-          "Value": "1"
+          "Value": 1.0,
+          "Type": "Double"
         }
       ],
       "Columns": [
@@ -3569,8 +1369,8 @@
             "MolWeight": 152000.0
           },
           "Values": [
-            0.255729973,
-            0.189900011,
+            0.25572997,
+            0.18990001,
             0.13588,
             0.084714,
             0.041612,
@@ -3607,27 +1407,33 @@
       "ExtendedProperties": [
         {
           "Name": "Sheet",
-          "Value": "All"
+          "Value": "All",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Brain"
+          "Value": "Brain",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Tissue"
+          "Value": "Tissue",
+          "Type": "String"
         },
         {
           "Name": "Molecule",
-          "Value": "BAY794620"
+          "Value": "BAY794620",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Mouse"
+          "Value": "Mouse",
+          "Type": "String"
         },
         {
           "Name": "Point",
-          "Value": "2"
+          "Value": 2.0,
+          "Type": "Double"
         }
       ],
       "Columns": [
@@ -3682,27 +1488,33 @@
       "ExtendedProperties": [
         {
           "Name": "Sheet",
-          "Value": "All"
+          "Value": "All",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Heart"
+          "Value": "Heart",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Tissue"
+          "Value": "Tissue",
+          "Type": "String"
         },
         {
           "Name": "Molecule",
-          "Value": "BAY794620"
+          "Value": "BAY794620",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Mouse"
+          "Value": "Mouse",
+          "Type": "String"
         },
         {
           "Name": "Point",
-          "Value": "1"
+          "Value": 1.0,
+          "Type": "Double"
         }
       ],
       "Columns": [
@@ -3720,7 +1532,7 @@
             2.8723,
             2.1467,
             1.1974,
-            0.741059959,
+            0.74105996,
             0.20534,
             0.62197
           ],
@@ -3755,27 +1567,33 @@
       "ExtendedProperties": [
         {
           "Name": "Sheet",
-          "Value": "All"
+          "Value": "All",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Heart"
+          "Value": "Heart",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Tissue"
+          "Value": "Tissue",
+          "Type": "String"
         },
         {
           "Name": "Molecule",
-          "Value": "BAY794620"
+          "Value": "BAY794620",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Mouse"
+          "Value": "Mouse",
+          "Type": "String"
         },
         {
           "Name": "Point",
-          "Value": "2"
+          "Value": 2.0,
+          "Type": "Double"
         }
       ],
       "Columns": [
@@ -3792,10 +1610,10 @@
           "Values": [
             3.1231,
             3.1756,
-            1.17640007,
+            1.1764001,
             0.79057,
-            0.515660048,
-            0.491109967,
+            0.51566005,
+            0.49110997,
             0.16561
           ],
           "Dimension": "Concentration (mass)",
@@ -3830,27 +1648,33 @@
       "ExtendedProperties": [
         {
           "Name": "Sheet",
-          "Value": "All"
+          "Value": "All",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Kidney"
+          "Value": "Kidney",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Tissue"
+          "Value": "Tissue",
+          "Type": "String"
         },
         {
           "Name": "Molecule",
-          "Value": "BAY794620"
+          "Value": "BAY794620",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Mouse"
+          "Value": "Mouse",
+          "Type": "String"
         },
         {
           "Name": "Point",
-          "Value": "1"
+          "Value": 1.0,
+          "Type": "Double"
         }
       ],
       "Columns": [
@@ -3903,27 +1727,33 @@
       "ExtendedProperties": [
         {
           "Name": "Sheet",
-          "Value": "All"
+          "Value": "All",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Kidney"
+          "Value": "Kidney",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Tissue"
+          "Value": "Tissue",
+          "Type": "String"
         },
         {
           "Name": "Molecule",
-          "Value": "BAY794620"
+          "Value": "BAY794620",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Mouse"
+          "Value": "Mouse",
+          "Type": "String"
         },
         {
           "Name": "Point",
-          "Value": "2"
+          "Value": 2.0,
+          "Type": "Double"
         }
       ],
       "Columns": [
@@ -3978,27 +1808,33 @@
       "ExtendedProperties": [
         {
           "Name": "Sheet",
-          "Value": "All"
+          "Value": "All",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Liver"
+          "Value": "Liver",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Tissue"
+          "Value": "Tissue",
+          "Type": "String"
         },
         {
           "Name": "Molecule",
-          "Value": "BAY794620"
+          "Value": "BAY794620",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Mouse"
+          "Value": "Mouse",
+          "Type": "String"
         },
         {
           "Name": "Point",
-          "Value": "1"
+          "Value": 1.0,
+          "Type": "Double"
         }
       ],
       "Columns": [
@@ -4016,8 +1852,8 @@
             3.4884,
             2.8342,
             1.9673,
-            1.20590007,
-            0.444300026,
+            1.2059001,
+            0.44430003,
             0.75987
           ],
           "Dimension": "Concentration (mass)",
@@ -4051,27 +1887,33 @@
       "ExtendedProperties": [
         {
           "Name": "Sheet",
-          "Value": "All"
+          "Value": "All",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Liver"
+          "Value": "Liver",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Tissue"
+          "Value": "Tissue",
+          "Type": "String"
         },
         {
           "Name": "Molecule",
-          "Value": "BAY794620"
+          "Value": "BAY794620",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Mouse"
+          "Value": "Mouse",
+          "Type": "String"
         },
         {
           "Name": "Point",
-          "Value": "2"
+          "Value": 2.0,
+          "Type": "Double"
         }
       ],
       "Columns": [
@@ -4086,9 +1928,9 @@
             "MolWeight": 152000.0
           },
           "Values": [
-            3.66879988,
+            3.6687999,
             3.4251,
-            1.89519989,
+            1.8951999,
             1.702,
             0.84213,
             0.67795,
@@ -4126,27 +1968,33 @@
       "ExtendedProperties": [
         {
           "Name": "Sheet",
-          "Value": "All"
+          "Value": "All",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Lung"
+          "Value": "Lung",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Tissue"
+          "Value": "Tissue",
+          "Type": "String"
         },
         {
           "Name": "Molecule",
-          "Value": "BAY794620"
+          "Value": "BAY794620",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Mouse"
+          "Value": "Mouse",
+          "Type": "String"
         },
         {
           "Name": "Point",
-          "Value": "1"
+          "Value": 1.0,
+          "Type": "Double"
         }
       ],
       "Columns": [
@@ -4162,9 +2010,9 @@
           },
           "Values": [
             4.2578,
-            2.66579986,
+            2.6657999,
             2.1702,
-            1.20929992,
+            1.2092999,
             0.30359,
             0.64696
           ],
@@ -4199,27 +2047,33 @@
       "ExtendedProperties": [
         {
           "Name": "Sheet",
-          "Value": "All"
+          "Value": "All",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Lung"
+          "Value": "Lung",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Tissue"
+          "Value": "Tissue",
+          "Type": "String"
         },
         {
           "Name": "Molecule",
-          "Value": "BAY794620"
+          "Value": "BAY794620",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Mouse"
+          "Value": "Mouse",
+          "Type": "String"
         },
         {
           "Name": "Point",
-          "Value": "2"
+          "Value": 2.0,
+          "Type": "Double"
         }
       ],
       "Columns": [
@@ -4274,27 +2128,33 @@
       "ExtendedProperties": [
         {
           "Name": "Sheet",
-          "Value": "All"
+          "Value": "All",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Ovaries"
+          "Value": "Ovaries",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Tissue"
+          "Value": "Tissue",
+          "Type": "String"
         },
         {
           "Name": "Molecule",
-          "Value": "BAY794620"
+          "Value": "BAY794620",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Mouse"
+          "Value": "Mouse",
+          "Type": "String"
         },
         {
           "Name": "Point",
-          "Value": "1"
+          "Value": 1.0,
+          "Type": "Double"
         }
       ],
       "Columns": [
@@ -4314,7 +2174,7 @@
             1.4264,
             0.80459,
             0.31176,
-            0.596959949
+            0.59695995
           ],
           "Dimension": "Concentration (mass)",
           "Unit": "mg/l"
@@ -4347,27 +2207,33 @@
       "ExtendedProperties": [
         {
           "Name": "Sheet",
-          "Value": "All"
+          "Value": "All",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Ovaries"
+          "Value": "Ovaries",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Tissue"
+          "Value": "Tissue",
+          "Type": "String"
         },
         {
           "Name": "Molecule",
-          "Value": "BAY794620"
+          "Value": "BAY794620",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Mouse"
+          "Value": "Mouse",
+          "Type": "String"
         },
         {
           "Name": "Point",
-          "Value": "2"
+          "Value": 2.0,
+          "Type": "Double"
         }
       ],
       "Columns": [
@@ -4387,7 +2253,7 @@
             1.2587,
             1.0035,
             0.58766,
-            0.435980022,
+            0.43598002,
             0.16765
           ],
           "Dimension": "Concentration (mass)",
@@ -4422,27 +2288,33 @@
       "ExtendedProperties": [
         {
           "Name": "Sheet",
-          "Value": "All"
+          "Value": "All",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Pancreas"
+          "Value": "Pancreas",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Tissue"
+          "Value": "Tissue",
+          "Type": "String"
         },
         {
           "Name": "Molecule",
-          "Value": "BAY794620"
+          "Value": "BAY794620",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Mouse"
+          "Value": "Mouse",
+          "Type": "String"
         },
         {
           "Name": "Point",
-          "Value": "1"
+          "Value": 1.0,
+          "Type": "Double"
         }
       ],
       "Columns": [
@@ -4457,8 +2329,8 @@
             "MolWeight": 152000.0
           },
           "Values": [
-            0.331170022,
-            0.477260023,
+            0.33117002,
+            0.47726002,
             0.42491,
             0.24507,
             0.086171,
@@ -4495,27 +2367,33 @@
       "ExtendedProperties": [
         {
           "Name": "Sheet",
-          "Value": "All"
+          "Value": "All",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Pancreas"
+          "Value": "Pancreas",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Tissue"
+          "Value": "Tissue",
+          "Type": "String"
         },
         {
           "Name": "Molecule",
-          "Value": "BAY794620"
+          "Value": "BAY794620",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Mouse"
+          "Value": "Mouse",
+          "Type": "String"
         },
         {
           "Name": "Point",
-          "Value": "2"
+          "Value": 2.0,
+          "Type": "Double"
         }
       ],
       "Columns": [
@@ -4530,11 +2408,11 @@
             "MolWeight": 152000.0
           },
           "Values": [
-            0.750120044,
+            0.75012004,
             0.52605,
             0.27912,
             0.23885,
-            0.132439986,
+            0.13243999,
             0.15594,
             0.042303998
           ],
@@ -4570,27 +2448,33 @@
       "ExtendedProperties": [
         {
           "Name": "Sheet",
-          "Value": "All"
+          "Value": "All",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Muscle"
+          "Value": "Muscle",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Tissue"
+          "Value": "Tissue",
+          "Type": "String"
         },
         {
           "Name": "Molecule",
-          "Value": "BAY794620"
+          "Value": "BAY794620",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Mouse"
+          "Value": "Mouse",
+          "Type": "String"
         },
         {
           "Name": "Point",
-          "Value": "1"
+          "Value": 1.0,
+          "Type": "Double"
         }
       ],
       "Columns": [
@@ -4643,27 +2527,33 @@
       "ExtendedProperties": [
         {
           "Name": "Sheet",
-          "Value": "All"
+          "Value": "All",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Muscle"
+          "Value": "Muscle",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Tissue"
+          "Value": "Tissue",
+          "Type": "String"
         },
         {
           "Name": "Molecule",
-          "Value": "BAY794620"
+          "Value": "BAY794620",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Mouse"
+          "Value": "Mouse",
+          "Type": "String"
         },
         {
           "Name": "Point",
-          "Value": "2"
+          "Value": 2.0,
+          "Type": "Double"
         }
       ],
       "Columns": [
@@ -4678,7 +2568,7 @@
             "MolWeight": 152000.0
           },
           "Values": [
-            0.190389991,
+            0.19038999,
             0.16376,
             0.16275,
             0.12717,
@@ -4718,27 +2608,33 @@
       "ExtendedProperties": [
         {
           "Name": "Sheet",
-          "Value": "All"
+          "Value": "All",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Skin"
+          "Value": "Skin",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Tissue"
+          "Value": "Tissue",
+          "Type": "String"
         },
         {
           "Name": "Molecule",
-          "Value": "BAY794620"
+          "Value": "BAY794620",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Mouse"
+          "Value": "Mouse",
+          "Type": "String"
         },
         {
           "Name": "Point",
-          "Value": "1"
+          "Value": 1.0,
+          "Type": "Double"
         }
       ],
       "Columns": [
@@ -4755,7 +2651,7 @@
           "Values": [
             0.44917,
             0.69314003,
-            0.628410041,
+            0.62841004,
             0.4713,
             0.17377001,
             0.18756
@@ -4791,27 +2687,33 @@
       "ExtendedProperties": [
         {
           "Name": "Sheet",
-          "Value": "All"
+          "Value": "All",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Skin"
+          "Value": "Skin",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Tissue"
+          "Value": "Tissue",
+          "Type": "String"
         },
         {
           "Name": "Molecule",
-          "Value": "BAY794620"
+          "Value": "BAY794620",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Mouse"
+          "Value": "Mouse",
+          "Type": "String"
         },
         {
           "Name": "Point",
-          "Value": "2"
+          "Value": 2.0,
+          "Type": "Double"
         }
       ],
       "Columns": [
@@ -4828,9 +2730,9 @@
           "Values": [
             0.29398,
             0.59473,
-            0.637779951,
+            0.63777995,
             0.41844,
-            0.287590027,
+            0.28759003,
             0.21541,
             0.096584
           ],
@@ -4866,27 +2768,33 @@
       "ExtendedProperties": [
         {
           "Name": "Sheet",
-          "Value": "All"
+          "Value": "All",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "SmallIntestine"
+          "Value": "SmallIntestine",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Tissue"
+          "Value": "Tissue",
+          "Type": "String"
         },
         {
           "Name": "Molecule",
-          "Value": "BAY794620"
+          "Value": "BAY794620",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Mouse"
+          "Value": "Mouse",
+          "Type": "String"
         },
         {
           "Name": "Point",
-          "Value": "1"
+          "Value": 1.0,
+          "Type": "Double"
         }
       ],
       "Columns": [
@@ -4901,7 +2809,7 @@
             "MolWeight": 152000.0
           },
           "Values": [
-            0.664480031,
+            0.66448003,
             1.1495,
             0.40044,
             0.36097002,
@@ -4939,27 +2847,33 @@
       "ExtendedProperties": [
         {
           "Name": "Sheet",
-          "Value": "All"
+          "Value": "All",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "SmallIntestine"
+          "Value": "SmallIntestine",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Tissue"
+          "Value": "Tissue",
+          "Type": "String"
         },
         {
           "Name": "Molecule",
-          "Value": "BAY794620"
+          "Value": "BAY794620",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Mouse"
+          "Value": "Mouse",
+          "Type": "String"
         },
         {
           "Name": "Point",
-          "Value": "2"
+          "Value": 2.0,
+          "Type": "Double"
         }
       ],
       "Columns": [
@@ -4974,13 +2888,13 @@
             "MolWeight": 152000.0
           },
           "Values": [
-            0.682209969,
-            1.30549991,
+            0.68220997,
+            1.3054999,
             0.58871,
-            0.245569989,
+            0.24556999,
             0.26179,
             0.18457,
-            0.0596000031
+            0.059600003
           ],
           "Dimension": "Concentration (mass)",
           "Unit": "mg/l"
@@ -5014,27 +2928,33 @@
       "ExtendedProperties": [
         {
           "Name": "Sheet",
-          "Value": "All"
+          "Value": "All",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Spleen"
+          "Value": "Spleen",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Tissue"
+          "Value": "Tissue",
+          "Type": "String"
         },
         {
           "Name": "Molecule",
-          "Value": "BAY794620"
+          "Value": "BAY794620",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Mouse"
+          "Value": "Mouse",
+          "Type": "String"
         },
         {
           "Name": "Point",
-          "Value": "1"
+          "Value": 1.0,
+          "Type": "Double"
         }
       ],
       "Columns": [
@@ -5049,7 +2969,7 @@
             "MolWeight": 152000.0
           },
           "Values": [
-            0.989890039,
+            0.98989004,
             1.4136,
             0.60498,
             0.40098998,
@@ -5087,27 +3007,33 @@
       "ExtendedProperties": [
         {
           "Name": "Sheet",
-          "Value": "All"
+          "Value": "All",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Spleen"
+          "Value": "Spleen",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Tissue"
+          "Value": "Tissue",
+          "Type": "String"
         },
         {
           "Name": "Molecule",
-          "Value": "BAY794620"
+          "Value": "BAY794620",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Mouse"
+          "Value": "Mouse",
+          "Type": "String"
         },
         {
           "Name": "Point",
-          "Value": "2"
+          "Value": 2.0,
+          "Type": "Double"
         }
       ],
       "Columns": [
@@ -5162,27 +3088,33 @@
       "ExtendedProperties": [
         {
           "Name": "Sheet",
-          "Value": "All"
+          "Value": "All",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Stomach"
+          "Value": "Stomach",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Tissue"
+          "Value": "Tissue",
+          "Type": "String"
         },
         {
           "Name": "Molecule",
-          "Value": "BAY794620"
+          "Value": "BAY794620",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Mouse"
+          "Value": "Mouse",
+          "Type": "String"
         },
         {
           "Name": "Point",
-          "Value": "1"
+          "Value": 1.0,
+          "Type": "Double"
         }
       ],
       "Columns": [
@@ -5235,27 +3167,33 @@
       "ExtendedProperties": [
         {
           "Name": "Sheet",
-          "Value": "All"
+          "Value": "All",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Stomach"
+          "Value": "Stomach",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Tissue"
+          "Value": "Tissue",
+          "Type": "String"
         },
         {
           "Name": "Molecule",
-          "Value": "BAY794620"
+          "Value": "BAY794620",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Mouse"
+          "Value": "Mouse",
+          "Type": "String"
         },
         {
           "Name": "Point",
-          "Value": "2"
+          "Value": 2.0,
+          "Type": "Double"
         }
       ],
       "Columns": [
@@ -5271,12 +3209,12 @@
           },
           "Values": [
             2.0667,
-            2.14600015,
+            2.1460001,
             0.62278,
             0.38047,
             0.37714,
-            0.205269992,
-            0.0640820041
+            0.20526999,
+            0.064082004
           ],
           "Dimension": "Concentration (mass)",
           "Unit": "mg/l"
@@ -5310,27 +3248,33 @@
       "ExtendedProperties": [
         {
           "Name": "Sheet",
-          "Value": "All"
+          "Value": "All",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Tumor"
+          "Value": "Tumor",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Tissue"
+          "Value": "Tissue",
+          "Type": "String"
         },
         {
           "Name": "Molecule",
-          "Value": "BAY794620"
+          "Value": "BAY794620",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Mouse"
+          "Value": "Mouse",
+          "Type": "String"
         },
         {
           "Name": "Point",
-          "Value": "1"
+          "Value": 1.0,
+          "Type": "Double"
         }
       ],
       "Columns": [
@@ -5346,7 +3290,7 @@
           },
           "Values": [
             707.58,
-            994.160034,
+            994.16003,
             1196.2,
             1219.6,
             548.85,
@@ -5383,27 +3327,33 @@
       "ExtendedProperties": [
         {
           "Name": "Sheet",
-          "Value": "All"
+          "Value": "All",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Tumor"
+          "Value": "Tumor",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Tissue"
+          "Value": "Tissue",
+          "Type": "String"
         },
         {
           "Name": "Molecule",
-          "Value": "BAY794620"
+          "Value": "BAY794620",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Mouse"
+          "Value": "Mouse",
+          "Type": "String"
         },
         {
           "Name": "Point",
-          "Value": "2"
+          "Value": 2.0,
+          "Type": "Double"
         }
       ],
       "Columns": [
@@ -5423,7 +3373,7 @@
             1774.7,
             2024.1,
             1232.6,
-            1458.29993,
+            1458.2999,
             596.88
           ],
           "Dimension": "Concentration (mass)",
@@ -5458,23 +3408,28 @@
       "ExtendedProperties": [
         {
           "Name": "Sheet",
-          "Value": "All"
+          "Value": "All",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Spleen"
+          "Value": "Spleen",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Tissue"
+          "Value": "Tissue",
+          "Type": "String"
         },
         {
           "Name": "Molecule",
-          "Value": "BAY794620"
+          "Value": "BAY794620",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Mouse"
+          "Value": "Mouse",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -5494,7 +3449,7 @@
               "Values": [
                 1.35,
                 1.1,
-                0.450000018,
+                0.45000002,
                 0.95,
                 0.7,
                 0.15
@@ -5512,11 +3467,11 @@
             "MolWeight": 152000.0
           },
           "Values": [
-            0.0151110506,
+            0.015111051,
             0.00578925,
             0.0054313,
-            0.00343739986,
-            0.00345590012,
+            0.0034373999,
+            0.0034559001,
             0.00292805
           ],
           "Dimension": "Concentration (mass)",
@@ -5550,23 +3505,28 @@
       "ExtendedProperties": [
         {
           "Name": "Sheet",
-          "Value": "All"
+          "Value": "All",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Liver"
+          "Value": "Liver",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Tissue"
+          "Value": "Tissue",
+          "Type": "String"
         },
         {
           "Name": "Molecule",
-          "Value": "BAY794620"
+          "Value": "BAY794620",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Mouse"
+          "Value": "Mouse",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -5642,23 +3602,28 @@
       "ExtendedProperties": [
         {
           "Name": "Sheet",
-          "Value": "All"
+          "Value": "All",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Kidney"
+          "Value": "Kidney",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Tissue"
+          "Value": "Tissue",
+          "Type": "String"
         },
         {
           "Name": "Molecule",
-          "Value": "BAY794620"
+          "Value": "BAY794620",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Mouse"
+          "Value": "Mouse",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -5678,7 +3643,7 @@
               "Values": [
                 4.95,
                 1.4,
-                1.55000007,
+                1.5500001,
                 1.4,
                 0.8,
                 0.3
@@ -5734,23 +3699,28 @@
       "ExtendedProperties": [
         {
           "Name": "Sheet",
-          "Value": "All"
+          "Value": "All",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Lung"
+          "Value": "Lung",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Tissue"
+          "Value": "Tissue",
+          "Type": "String"
         },
         {
           "Name": "Molecule",
-          "Value": "BAY794620"
+          "Value": "BAY794620",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Mouse"
+          "Value": "Mouse",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -5770,7 +3740,7 @@
               "Values": [
                 10.7,
                 2.3,
-                1.55000007,
+                1.5500001,
                 2.1,
                 3.15,
                 1.6
@@ -5826,23 +3796,28 @@
       "ExtendedProperties": [
         {
           "Name": "Sheet",
-          "Value": "All"
+          "Value": "All",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Bone"
+          "Value": "Bone",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Tissue"
+          "Value": "Tissue",
+          "Type": "String"
         },
         {
           "Name": "Molecule",
-          "Value": "BAY794620"
+          "Value": "BAY794620",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Mouse"
+          "Value": "Mouse",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -5862,7 +3837,7 @@
               "Values": [
                 2.325,
                 0.525,
-                0.450000018,
+                0.45000002,
                 1.275,
                 0.75,
                 0.075
@@ -5880,8 +3855,8 @@
             "MolWeight": 152000.0
           },
           "Values": [
-            0.0149167506,
-            0.00652695028,
+            0.014916751,
+            0.0065269503,
             0.005222625,
             0.0031725,
             0.003432825,
@@ -5918,23 +3893,28 @@
       "ExtendedProperties": [
         {
           "Name": "Sheet",
-          "Value": "All"
+          "Value": "All",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Heart"
+          "Value": "Heart",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Tissue"
+          "Value": "Tissue",
+          "Type": "String"
         },
         {
           "Name": "Molecule",
-          "Value": "BAY794620"
+          "Value": "BAY794620",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Mouse"
+          "Value": "Mouse",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -5977,7 +3957,7 @@
             0.0112257,
             0.0068276,
             0.00509755,
-            0.00444229972
+            0.0044422997
           ],
           "Dimension": "Concentration (mass)",
           "Unit": "mg/l"
@@ -6010,23 +3990,28 @@
       "ExtendedProperties": [
         {
           "Name": "Sheet",
-          "Value": "All"
+          "Value": "All",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Brain"
+          "Value": "Brain",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Tissue"
+          "Value": "Tissue",
+          "Type": "String"
         },
         {
           "Name": "Molecule",
-          "Value": "BAY794620"
+          "Value": "BAY794620",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Mouse"
+          "Value": "Mouse",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -6065,10 +4050,10 @@
           },
           "Values": [
             0.00278535,
-            0.00155220006,
+            0.0015522001,
             0.00109525,
             0.0005979,
-            0.000517050037,
+            0.00051705004,
             0.0004619
           ],
           "Dimension": "Concentration (mass)",
@@ -6102,23 +4087,28 @@
       "ExtendedProperties": [
         {
           "Name": "Sheet",
-          "Value": "All"
+          "Value": "All",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Fat"
+          "Value": "Fat",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Tissue"
+          "Value": "Tissue",
+          "Type": "String"
         },
         {
           "Name": "Molecule",
-          "Value": "BAY794620"
+          "Value": "BAY794620",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Mouse"
+          "Value": "Mouse",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -6157,10 +4147,10 @@
           },
           "Values": [
             0.0044267,
-            0.00374499988,
+            0.0037449999,
             0.0033182,
             0.0033027,
-            0.00237320014,
+            0.0023732001,
             0.00149665
           ],
           "Dimension": "Concentration (mass)",
@@ -6194,23 +4184,28 @@
       "ExtendedProperties": [
         {
           "Name": "Sheet",
-          "Value": "All"
+          "Value": "All",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Muscle"
+          "Value": "Muscle",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Tissue"
+          "Value": "Tissue",
+          "Type": "String"
         },
         {
           "Name": "Molecule",
-          "Value": "BAY794620"
+          "Value": "BAY794620",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Mouse"
+          "Value": "Mouse",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -6249,7 +4244,7 @@
           },
           "Values": [
             0.00262015,
-            0.00188900006,
+            0.0018890001,
             0.00163085,
             0.00112155,
             0.0016749,
@@ -6286,23 +4281,28 @@
       "ExtendedProperties": [
         {
           "Name": "Sheet",
-          "Value": "All"
+          "Value": "All",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Tumor"
+          "Value": "Tumor",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Tissue"
+          "Value": "Tissue",
+          "Type": "String"
         },
         {
           "Name": "Molecule",
-          "Value": "BAY794620"
+          "Value": "BAY794620",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Mouse"
+          "Value": "Mouse",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -6320,10 +4320,10 @@
                 "MolWeight": 152000.0
               },
               "Values": [
-                3.60000014,
+                3.6000001,
                 4.15,
-                6.45000029,
-                4.54999971,
+                6.4500003,
+                4.5499997,
                 5.5,
                 8.0
               ],
@@ -6378,23 +4378,28 @@
       "ExtendedProperties": [
         {
           "Name": "Sheet",
-          "Value": "All"
+          "Value": "All",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Blood"
+          "Value": "Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "WholeBlood"
+          "Value": "WholeBlood",
+          "Type": "String"
         },
         {
           "Name": "Molecule",
-          "Value": "BAY794620"
+          "Value": "BAY794620",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Mouse"
+          "Value": "Mouse",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -6470,23 +4475,28 @@
       "ExtendedProperties": [
         {
           "Name": "Sheet",
-          "Value": "All"
+          "Value": "All",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Stomach"
+          "Value": "Stomach",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Tissue"
+          "Value": "Tissue",
+          "Type": "String"
         },
         {
           "Name": "Molecule",
-          "Value": "BAY794620"
+          "Value": "BAY794620",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Mouse"
+          "Value": "Mouse",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -6562,23 +4572,28 @@
       "ExtendedProperties": [
         {
           "Name": "Sheet",
-          "Value": "All"
+          "Value": "All",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Ovaries"
+          "Value": "Ovaries",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Tissue"
+          "Value": "Tissue",
+          "Type": "String"
         },
         {
           "Name": "Molecule",
-          "Value": "BAY794620"
+          "Value": "BAY794620",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Mouse"
+          "Value": "Mouse",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -6616,7 +4631,7 @@
             "MolWeight": 152000.0
           },
           "Values": [
-            0.0223805513,
+            0.022380551,
             0.0123059,
             0.0065501,
             0.0053073,
@@ -6654,23 +4669,28 @@
       "ExtendedProperties": [
         {
           "Name": "Sheet",
-          "Value": "All"
+          "Value": "All",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Intestine"
+          "Value": "Intestine",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Tissue"
+          "Value": "Tissue",
+          "Type": "String"
         },
         {
           "Name": "Molecule",
-          "Value": "BAY794620"
+          "Value": "BAY794620",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Mouse"
+          "Value": "Mouse",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -6690,7 +4710,7 @@
               "Values": [
                 0.35,
                 0.7,
-                0.450000018,
+                0.45000002,
                 0.3,
                 0.3,
                 0.05
@@ -6746,23 +4766,28 @@
       "ExtendedProperties": [
         {
           "Name": "Sheet",
-          "Value": "All"
+          "Value": "All",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Pancreas"
+          "Value": "Pancreas",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Tissue"
+          "Value": "Tissue",
+          "Type": "String"
         },
         {
           "Name": "Molecule",
-          "Value": "BAY794620"
+          "Value": "BAY794620",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Mouse"
+          "Value": "Mouse",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -6801,7 +4826,7 @@
           },
           "Values": [
             0.00875065,
-            0.00498090032,
+            0.0049809003,
             0.0037171,
             0.002394,
             0.00092275,
