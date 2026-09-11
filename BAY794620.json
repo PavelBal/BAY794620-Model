@@ -1,6 +1,7 @@
 {
   "Name": "BAY794620",
   "Version": 81,
+  "ApplicationName": "PK-Sim",
   "Individuals": [
     {
       "Name": "Mouse_autoradiography",
@@ -7161,6 +7162,5 @@
         "BAY794620_TissueDissection_PKSimImport.Pancreas"
       ]
     }
-  ],
-  "ApplicationName": "PK-Sim"
+  ]
 }
